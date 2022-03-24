@@ -1,0 +1,59 @@
+header {
+    text-align: justify;
+    height: 4em;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+}
+a.a{
+	text-decoration: none;
+	-moz-appearance: button;
+	-webkit-appearance: button;
+}
+button.1 {
+    float: left;
+    background-color: #2c3e50;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button.2 {
+    float: left;
+    background-color: #2c3e50;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button {
+    float: left;
+    background-color: #2c3e50;
+    width: 150px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+

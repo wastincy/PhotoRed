@@ -1,0 +1,15 @@
+header {
+    text-align: justify;
+    height: 4em;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+}
+footer {
+    text-align: justify;
+    height: 2em;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+}
+

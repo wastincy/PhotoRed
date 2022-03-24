@@ -1,0 +1,62 @@
+<!doctype html>
+{% load static %}
+<html lang="ru">
+<head>
+    <link href='{% static "css/editor.css" %}' rel="stylesheet" type="text/css">
+    <meta charset="UTF+3">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PhotoRed</title>
+</head>
+<body>
+    <header>
+        <h1><a class="a" href="./"><font color="white">PhotoRed</font></a></h1>
+    </header>
+    <center>
+        <p><img src='{% static "Resources/PhotoRed.png"%}' width="720" height="405"></p>
+    </center>
+    <form action = "cap" method = "POST">
+        <p><button class="1">Make photo</button></p>
+    </form>
+    <form action = "download" method = "POST">
+        <p><button class="1">Download</button></p>
+    </form>
+    <form action = "filters1" method = "POST">
+        <p><button class="1">1977</button></p>
+    </form>
+    <form action = "filters2" method = "POST">
+        <p><button class="1">Saturate</button></p>
+    </form>
+    <form action = "filters3" method = "POST">
+        <p><button class="1">Sharpen</button></p>
+    </form>
+    <form action = "filters4" method = "POST">
+        <p><button class="1">Blur</button></p>
+    </form>
+    <form action = "filters5" method = "POST">
+        <p><button class="1">Toaster</button></p>
+    </form>
+    <form action = "filters6" method = "POST">
+        <p><button class="2">Inkwell</button></p>
+    </form>
+    <form action = "filters7" method = "POST">
+        <p><button class="2">Kelvin</button></p>
+    </form>
+    <form action = "filters8" method = "POST">
+        <p><button class="2">Brooklyn</button></p>
+    </form>
+    <form action = "filters9" method = "POST">
+        <p><button class="2">Clarendon</button></p>
+    </form>
+    <form action = "filters10" method = "POST">
+        <p><button class="2">Earlybird</button></p>
+    </form>
+    <form action = "filters11" method = "POST">
+        <p><button class="2">Original</button></p>
+    </form>
+    <form action = "filters12" method = "POST">
+        <p><button class="2">Backup</button></p>
+    </form>
+</body>
+</html>
